@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient(to right,#da1e37,#cf5353);
+    background-attachment:fixed;
+    background-origin:inital;
+    background-repeat:no repeat;
+    height:100%;
+}
+#love {
+    font-size: 7rem;
+    color: #f5e0cc;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Fredericka the Great', cursive;
+}
