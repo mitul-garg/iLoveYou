@@ -6,11 +6,32 @@ body {
     height:100%;
 }
 #love {
-    font-size: 7rem;
+    font-size: 6.5rem;
     color: #f5e0cc;
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+}
+#heart {
+    width: 160px;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#click {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: #eaac8b;
+    padding-top: 8%;
+}
+@media (max-width: 500px) {
+    #heart {
+        width: 80px;
+        height: auto;
+    }
 }
